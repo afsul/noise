@@ -1,0 +1,672 @@
+     .full-nav {
+         background-color: #000;
+     }
+     
+     .navbar .navbar-brand img {
+         width: 87px !important;
+         height: 23px !important;
+     }
+     
+     body {
+         background: #fafafa;
+     }
+     
+     .navbar-light .navbar-toggler-icon {
+         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+     }
+     
+     .navbar-nav {
+         margin-left: 255px !important;
+     }
+     
+     .nav-item {
+         margin-left: 15px;
+     }
+     
+     .navbar-light .navbar-nav .nav-link:hover {
+         color: #c1c0c0 !important;
+     }
+     
+     .navbar-nav li i {
+         font-size: 20px;
+         cursor: pointer;
+     }
+     
+     .banner {
+         background-image: url(images/banner.png) !important;
+         background-size: cover !important;
+         width: 100%;
+         height: 450px;
+     }
+     
+     .banner img {
+         display: none !important;
+     }
+     
+     .product-container {
+         padding-left: 160px !important;
+         padding-right: 160px !important;
+     }
+     
+     .products {
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+         justify-content: space-around;
+     }
+     
+     .card1 {
+         background: rgb(250, 234, 233);
+         width: 400px;
+         height: 350px;
+         border-radius: 15px;
+         border: none;
+     }
+     
+     .card-title {
+         font-family: 'Roboto', sans-serif;
+         font-size: 25px;
+         font-weight: 500;
+         color: #000;
+         text-align: center;
+         margin-top: 25px;
+     }
+     
+     .card-img-bottom {
+         width: 100%;
+         height: auto;
+         padding: 0px 100px;
+     }
+     /* ------------------------ Products 2 ------------------- */
+     
+     .products2 {
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+     }
+     
+     .card2 {
+         background: rgb(238, 238, 249);
+         width: 267px;
+         height: 328px;
+         border-radius: 15px;
+         border: none;
+     }
+     
+     .card2-img-bottom {
+         width: 100%;
+         height: auto;
+         padding: 0px 45px;
+     }
+     /* -------------- New Launches  ----------------- */
+     
+     .new-lauches {
+         padding: 0 30px;
+         font-family: 'Roboto', sans-serif;
+         font-size: 30px;
+     }
+     
+     .new-lauches h3 {
+         font-weight: 500;
+         color: #000;
+         text-align: center;
+         margin-top: 100px;
+         margin-bottom: 70px;
+     }
+     
+     .new-lauches .card {
+         border: none !important;
+         box-shadow: 0px 0px 7px #c1c0c0;
+         border-radius: 15px;
+         width: 200px;
+         height: 314px;
+     }
+     
+     .new-lauches .card h6 {
+         font-size: 12px;
+         font-weight: 500;
+         color: #ff8d2e;
+         text-align: center;
+         margin-top: 20px;
+         margin-bottom: 10px;
+     }
+     
+     .new-lauches .card h3 {
+         font-family: Roboto;
+         font-size: 24px;
+         font-weight: 700;
+         color: #505af0;
+         margin: 0;
+     }
+     
+     .new-lauches .card h5 {
+         font-size: 22px;
+         font-weight: 400;
+         color: #383838;
+     }
+     
+     .new-lauches .card h2 {
+         font-family: Roboto;
+         font-size: 16px;
+         font-weight: 400;
+         color: #8c87ff;
+         text-align: center;
+     }
+     
+     .slide-item {
+         width: 220px;
+         height: 320px;
+         background-color: springgreen;
+     }
+     
+     .slide-container {
+         display: flex;
+         justify-content: space-evenly;
+     }
+     
+     .card-img-top1 {
+         width: 50% !important;
+         height: auto;
+         margin-left: 50px;
+         margin-top: 20px;
+     }
+     
+     .campus-text {
+         background-image: url(images/campus.png);
+         background-size: 100%;
+         height: 539px;
+         background-repeat: no-repeat;
+     }
+     
+     .campus h5 {
+         font-family: 'Roboto', sans-serif;
+         font-size: 35px;
+         font-weight: 600;
+         color: black;
+         margin: 28px 120px;
+     }
+     
+     .campus p {
+         font-family: 'Roboto', sans-serif;
+         font-size: 18px;
+         font-weight: 400;
+         color: rgb(95, 95, 95);
+         margin: 28px 120px;
+     }
+     
+     .button-campus {
+         background-color: black;
+         height: 34px;
+         width: 90px;
+         text-align: center;
+         padding-top: 6px;
+         margin-left: 120px;
+     }
+     
+     .button-campus h4 {
+         font-size: 15px;
+     }
+     /* slider */
+     
+     .card-img-top2 {
+         width: 70% !important;
+         height: auto;
+         margin-left: 50px;
+         margin-top: 20px;
+     }
+     
+     .keep-up {
+         background: #e0dfff;
+         padding-top: 70px;
+         padding-bottom: 70px;
+     }
+     
+     .keep-up h2 {
+         margin-bottom: 52px;
+         font-family: Roboto;
+         font-size: 42px;
+         font-weight: 400;
+         color: #505af0;
+         text-align: center;
+     }
+     
+     .keep-up p {
+         font-size: 18px;
+         margin: 0 267px;
+         text-align: center;
+         margin-bottom: 70px;
+     }
+     
+     .form-control {
+         width: 540px;
+         margin: auto;
+         border: solid 1.1px #505af0 !important;
+         background-color: transparent !important;
+     }
+     
+     input[type="text"]::placeholder {
+         text-align: center !important;
+         color: #505af0;
+     }
+     
+     .keep-up .btn {
+         background-color: #515BF0;
+         margin-top: 31px;
+         cursor: pointer;
+     }
+     
+     .keep-up .btn:hover {
+         background-color: rgb(79, 79, 250) !important;
+     }
+     
+     .craft {
+         margin-top: 50px;
+         margin-bottom: 50px;
+     }
+     
+     .craft marquee {
+         color: red;
+         margin-bottom: 50px;
+     }
+     
+     .craft h1 {
+         text-align: center;
+         font-family: Roboto;
+         font-size: 48px;
+         font-weight: 700;
+         color: #000;
+     }
+     
+     .craft p {
+         text-align: center;
+         font-family: Roboto;
+         font-size: 18px;
+         color: #000;
+         margin-left: 150px;
+         margin-right: 150px;
+         line-height: 34px;
+         margin-bottom: 50px;
+     }
+     
+     .craft img {
+         width: 30%;
+     }
+     
+     .craft h5 {
+         font-family: Roboto;
+         font-size: 20px;
+         font-weight: 400;
+         color: #383838;
+         text-align: center;
+         margin-top: 21px;
+         margin-left: 23px;
+         margin-right: 24px;
+     }
+     
+     .craft p {
+         font-size: 13px;
+         margin-left: 0;
+         margin-right: 0;
+     }
+     
+     .craft img {
+         width: 17%;
+     }
+     
+     .footer {
+         margin-top: 50px;
+         margin-bottom: 50px;
+     }
+     
+     .footer p {
+         padding: 17px 0;
+         border-top: 1px solid rgba(151, 151, 151, .25);
+         line-height: normal;
+         margin-top: 36px;
+         text-align: center;
+         font-size: 14px;
+     }
+     
+     .footer img {
+         margin-bottom: 20px;
+     }
+     
+     .footer h4 {
+         margin-bottom: 20px;
+         font-size: 18px;
+         font-family: Roboto;
+         font-weight: 700;
+     }
+     
+     .footer ul li h5 {
+         font-size: 14px;
+         font-weight: 600;
+         font-family: Roboto;
+     }
+     
+     .footer ul li {
+         font-size: 12px;
+         font-family: Roboto;
+         font-weight: 400;
+         list-style: none;
+         color: #383838;
+         cursor: pointer;
+     }
+     /* Responsive */
+     
+     @media screen and (min-width: 320px) and (max-width: 479px) {
+         .navbar-nav {
+             margin-left: 0 !important;
+         }
+         .navbar-nav li i {
+             padding-left: 13px !important;
+         }
+         .navbar-light .navbar-nav .nav-link {
+             text-align: center;
+         }
+         .navbar-nav {
+             text-align: center;
+         }
+         .navbar-toggler {
+             background-color: white;
+         }
+         .navbar-light .navbar-toggler-icon {
+             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+         }
+         .carousel-control-next-icon {
+             display: none;
+         }
+         .carousel-control-prev-icon {
+             display: none;
+         }
+         .carousel-indicators {
+             display: none;
+         }
+         .banner {
+             background-repeat: no-repeat;
+             background-size: 100% !important;
+             height: 514px;
+         }
+         .product-container {
+             padding-left: 0 !important;
+             padding-right: 0 !important;
+             margin-top: -360px !important;
+         }
+         .product-container h5 {
+             font-size: 20px;
+         }
+         .card1 {
+             width: 250px;
+             height: 263px;
+             margin-bottom: 10px;
+         }
+         .card-img-bottom {
+             padding: 0px 60px;
+         }
+         .card2 {
+             width: 250px;
+             height: 250px;
+             margin-bottom: 10px;
+         }
+         .card2-img-bottom {
+             padding: 0px 50px;
+             margin-top: 16px !important;
+         }
+         .new-lauches {
+             padding: 0 10px;
+             margin-bottom: 100px;
+         }
+         .owl-prev {
+             display: none !important;
+         }
+         .owl-next {
+             display: none !important;
+         }
+         .campus h5 {
+             font-size: 25px;
+             margin: 0;
+         }
+         .campus p {
+             font-size: 15px;
+             margin-left: 0;
+         }
+         .button-campus {
+             margin-left: 0;
+             margin-bottom: 40px;
+         }
+         .campus-text {
+             height: 223px;
+         }
+         .new-lauches .card {
+             margin-left: 50px;
+         }
+         .keep-up h2 {
+             margin-bottom: 40px;
+             font-size: 27px;
+         }
+         .keep-up p {
+             font-size: 15px;
+             margin-bottom: 25px;
+             margin-left: 0;
+             margin-right: 0;
+         }
+         .form-control {
+             width: 234px;
+         }
+         .craft h1 {
+             font-size: 21px;
+         }
+         .craft img {
+             width: 15% !important;
+         }
+         .craft h5 {
+             font-size: 15px;
+         }
+         .footer .col-md-3 {
+             text-align: center;
+         }
+     }
+     
+     @media screen and (min-width: 480px) and (max-width: 767px) {
+         .navbar-nav {
+             margin-left: 0 !important;
+         }
+         .navbar-nav li i {
+             padding-left: 14px !important;
+         }
+         .navbar-light .navbar-nav .nav-link {
+             text-align: center;
+         }
+         .navbar-nav {
+             text-align: center;
+         }
+         .navbar-toggler {
+             background-color: white;
+         }
+         .navbar-light .navbar-toggler-icon {
+             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+         }
+         .carousel-control-next-icon {
+             display: none;
+         }
+         .carousel-control-prev-icon {
+             display: none;
+         }
+         .carousel-indicators {
+             display: none;
+         }
+         .banner {
+             background-repeat: no-repeat;
+             background-size: 100% !important;
+             height: 514px;
+         }
+         .product-container {
+             padding-left: 0 !important;
+             padding-right: 0 !important;
+             margin-top: -288px !important;
+         }
+         .product-container h5 {
+             font-size: 20px;
+         }
+         .card1 {
+             width: 209px;
+             height: 209px;
+             margin-bottom: 10px;
+         }
+         .card-img-bottom {
+             padding: 0px 40px;
+             margin-top: 11px !important;
+         }
+         .card2 {
+             width: 220px;
+             height: 230px;
+             margin-bottom: 10px;
+         }
+         .card2-img-bottom {
+             padding: 0px 33px;
+             margin-top: 7px !important;
+         }
+         .campus h5 {
+             font-size: 25px;
+             margin: 0;
+         }
+         .campus p {
+             font-size: 15px;
+             margin-left: 0;
+         }
+         .campus-text {
+             height: 330px;
+         }
+         .button-campus {
+             margin-left: 0;
+             margin-bottom: 40px;
+         }
+         .keep-up h2 {
+             margin-bottom: 40px;
+             font-size: 27px;
+         }
+         .keep-up p {
+             font-size: 15px;
+             margin-bottom: 25px;
+             margin-left: 0;
+             margin-right: 0;
+         }
+         .form-control {
+             width: 234px;
+         }
+         .craft h1 {
+             font-size: 21px;
+         }
+         .craft img {
+             width: 12%!important;
+         }
+         .craft h5 {
+             font-size: 15px;
+         }
+         .footer .col-md-3 {
+             text-align: center;
+         }
+     }
+     
+     @media screen and (min-width: 768px) and (max-width: 1023px) {
+         .navbar-toggler {
+             background-color: white;
+         }
+         .navbar-light .navbar-toggler-icon {
+             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+         }
+         .navbar-nav {
+             margin-left: 0 !important;
+         }
+         .navbar-nav li i {
+             padding-left: 14px !important;
+         }
+         .navbar-light .navbar-nav .nav-link {
+             text-align: center;
+         }
+         .navbar-nav {
+             text-align: center;
+         }
+         .banner {
+             background-repeat: no-repeat;
+             background-size: 100% !important;
+             height: 590px;
+         }
+         .product-container {
+             padding-left: 0 !important;
+             padding-right: 0 !important;
+             margin-top: -160px !important;
+         }
+         .product-container h5 {
+             font-size: 20px;
+         }
+         .card1 {
+             width: 351px;
+             height: 380px;
+             margin-bottom: 10px;
+         }
+         .card-img-bottom {
+             padding: 0px 72px;
+             margin-top: 40px !important;
+         }
+         .card2 {
+             width: 220px;
+             height: 230px;
+             margin-bottom: 10px;
+         }
+         .card2-img-bottom {
+             padding: 0px 33px;
+             margin-top: 7px !important;
+         }
+         .campus h5 {
+             font-size: 25px;
+             margin: 0;
+         }
+         .campus p {
+             font-size: 15px;
+             margin-left: 0;
+         }
+         .campus-text {
+             height: 280px !important;
+         }
+         .button-campus {
+             margin-left: 0;
+             margin-bottom: 40px;
+         }
+         .keep-up h2 {
+             margin-bottom: 40px;
+             font-size: 32px;
+         }
+         .keep-up p {
+             font-size: 18px;
+             margin-bottom: 25px;
+             margin-left: 0;
+             margin-right: 0;
+         }
+         .form-control {
+             width: 359px;
+         }
+         .craft p {
+             font-size: 17px;
+         }
+         .craft img {
+             width: 39%;
+         }
+     }
+     
+     @media screen and (min-width: 1024px) and (max-width: 1200px) {
+         .navbar-nav {
+             margin-left: 179px !important;
+         }
+         .product-container {
+             padding-left: 0 !important;
+             padding-right: 0 !important;
+         }
+         .campus-text {
+             height: 369px;
+         }
+         .craft img {
+             width: 27% !important;
+         }
+     }
